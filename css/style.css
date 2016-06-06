@@ -11,7 +11,7 @@ p {margin: 0;}
 html, body{
  font-family: 'PT-Sans-Italic';
    font-size: 100%;
-   background:#fff; 
+   background:#fff;
 }
 @font-face {
     font-family: 'MarkoOne-Regular';
@@ -82,7 +82,7 @@ nav a:focus {
 	transform: translateX(0px);
 }
 .header{
-	background: url(../images/banner.jpg)no-repeat;
+	background: url(../images/Pbanner.jpg)no-repeat;
 	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -105,13 +105,13 @@ span.menu {
 	font-size:1.3em;
 	color:#1c1c1c;
 	text-decoration:none;
-	outline:none;	
+	outline:none;
 }
 .search a i{
 	width: 26px;
 	height: 26px;
 	background: url(../images/magi.png)no-repeat;
-	display:inline-block;	
+	display:inline-block;
 	vertical-align: middle;
 	margin: 0 4px 0 0;
 }
@@ -236,7 +236,7 @@ span.menu {
   background: #9f9acf;
 }
 .weare-btn a:hover {
-  background: #000;	
+  background: #000;
   text-decoration:none;
 }
 /*--work--*/
@@ -568,14 +568,14 @@ img.zoom-img:hover {
 }
 /*--responsive design--*/
 @media(max-width:1440px){
-	
+
 }
 @media(max-width:1366px){
-	
+
 }
 @media(max-width:1280px){
 .header {
-  min-height: 630px;	
+  min-height: 630px;
 }
 .friend {
   padding: 0em 8em 3em 8em;
@@ -583,7 +583,7 @@ img.zoom-img:hover {
 }
 @media(max-width:1024px){
 .header {
-  min-height: 500px;	
+  min-height: 500px;
 }
 .banner {
   padding: 7em 0 5em;
@@ -669,7 +669,7 @@ span.menu{
 }
 ul.res  a:hover,ul.res li a.active{
 	color:#000;
-}	
+}
 .banner p {
   font-size: 1em;
   width: 80%;
@@ -796,7 +796,7 @@ h2.b-animate.b-from-left.b-delay03 img {
 @media(max-width:640px){
 .banner h1 {
   font-size: 2.2em;
-}	
+}
 .banner p {
   font-size: 1em;
   width: 95%;
@@ -855,7 +855,7 @@ h2.b-animate.b-from-left.b-delay03 {
 @media(max-width:480px){
 span.menu img {
   width: 82%;
-}	
+}
 .banner h1 {
   font-size: 1.6em;
 }
@@ -1033,7 +1033,7 @@ ul.friend {
   margin: 0em 0em 0.1em 0em;
 }
 .banner p {
-  font-size: 0.8em;	
+  font-size: 0.8em;
 }
 .banner {
   padding: 0.7em 0 0em;
