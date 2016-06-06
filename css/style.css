@@ -301,11 +301,11 @@ span.glyphicon.glyphicon.glyphicon-time {
   font-size: 3.5em;
   display: block;
 }
-span.glyphicon.glyphicon.glyphicon-off {
+span.glyphicon.glyphicon.glyphicon-btc {
   font-size: 3.5em;
   display: block;
 }
-span.glyphicon.glyphicon.glyphicon-user {
+span.glyphicon.glyphicon.glyphicon-apple {
   font-size: 3.5em;
   display: block;
 }
@@ -1176,10 +1176,15 @@ ul.friend {
   font-size: 12px;
 }
 }
-b, strong {
+.banner:hover strong {
     font-weight: bold;
-    color:#ccffee;
+    color:#00ff7f;
 }
+.banner strong {
+    font-weight: bold;
+    color:#ccffe6;
+}
+
 .hovereffect {
   width: 100%;
   height: 100%;
