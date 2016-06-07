@@ -11,7 +11,11 @@ p {margin: 0;}
 html, body{
  font-family: 'PT-Sans-Italic';
    font-size: 100%;
+<<<<<<< HEAD
    background:#fff; 
+=======
+   background:#fff;
+>>>>>>> gh-pages
 }
 @font-face {
     font-family: 'MarkoOne-Regular';
@@ -82,7 +86,11 @@ nav a:focus {
 	transform: translateX(0px);
 }
 .header{
+<<<<<<< HEAD
 	background: url(../images/banner.jpg)no-repeat;
+=======
+	background: url(../images/Pbanner.jpg)no-repeat;
+>>>>>>> gh-pages
 	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -105,13 +113,21 @@ span.menu {
 	font-size:1.3em;
 	color:#1c1c1c;
 	text-decoration:none;
+<<<<<<< HEAD
 	outline:none;	
+=======
+	outline:none;
+>>>>>>> gh-pages
 }
 .search a i{
 	width: 26px;
 	height: 26px;
 	background: url(../images/magi.png)no-repeat;
+<<<<<<< HEAD
 	display:inline-block;	
+=======
+	display:inline-block;
+>>>>>>> gh-pages
 	vertical-align: middle;
 	margin: 0 4px 0 0;
 }
@@ -155,6 +171,15 @@ span.menu {
   margin: 0 auto;
   font-style: italic;
 }
+<<<<<<< HEAD
+=======
+.banner small {
+  color: #fff;
+  width: 50%;
+  margin: 0 auto;
+  font-style: italic;
+}
+>>>>>>> gh-pages
 .header span.mover {
   background: url(../images/mover.png)no-repeat 0px 0px;
   width: 60px;
@@ -236,7 +261,11 @@ span.menu {
   background: #9f9acf;
 }
 .weare-btn a:hover {
+<<<<<<< HEAD
   background: #000;	
+=======
+  background: #000;
+>>>>>>> gh-pages
   text-decoration:none;
 }
 /*--work--*/
@@ -252,13 +281,21 @@ span.menu {
 	background-position: center;
 }
 .work-main h3 {
+<<<<<<< HEAD
   color: #fff;
+=======
+  color: black;
+>>>>>>> gh-pages
   font-size: 2.2em;
   font-weight: 700;
   font-family: 'MarkoOne-Regular';
 }
 .work-main p {
+<<<<<<< HEAD
   color: #fff;
+=======
+  color: black;
+>>>>>>> gh-pages
   font-size: 1.1em;
   font-style: italic;
   line-height: 1.8em;
@@ -295,21 +332,36 @@ span.glyphicon.glyphicon.glyphicon-time {
   font-size: 3.5em;
   display: block;
 }
+<<<<<<< HEAD
 span.glyphicon.glyphicon.glyphicon-off {
   font-size: 3.5em;
   display: block;
 }
 span.glyphicon.glyphicon.glyphicon-user {
+=======
+span.glyphicon.glyphicon.glyphicon-btc {
+  font-size: 3.5em;
+  display: block;
+}
+span.glyphicon.glyphicon.glyphicon-apple {
+>>>>>>> gh-pages
   font-size: 3.5em;
   display: block;
 }
 .wedo-grid:hover span.glyphicon.glyphicon.glyphicon-time{
 	color:#9f9acf;
 }
+<<<<<<< HEAD
 .wedo-grid:hover span.glyphicon.glyphicon.glyphicon-off{
 	color:#9f9acf;
 }
 .wedo-grid:hover span.glyphicon.glyphicon.glyphicon-user{
+=======
+.wedo-grid:hover span.glyphicon.glyphicon.glyphicon-btc{
+	color:#9f9acf;
+}
+.wedo-grid:hover span.glyphicon.glyphicon.glyphicon-apple{
+>>>>>>> gh-pages
 	color:#9f9acf;
 }
 .wedo-grid h4{
@@ -568,6 +620,7 @@ img.zoom-img:hover {
 }
 /*--responsive design--*/
 @media(max-width:1440px){
+<<<<<<< HEAD
 	
 }
 @media(max-width:1366px){
@@ -576,6 +629,16 @@ img.zoom-img:hover {
 @media(max-width:1280px){
 .header {
   min-height: 630px;	
+=======
+
+}
+@media(max-width:1366px){
+
+}
+@media(max-width:1280px){
+.header {
+  min-height: 630px;
+>>>>>>> gh-pages
 }
 .friend {
   padding: 0em 8em 3em 8em;
@@ -583,7 +646,11 @@ img.zoom-img:hover {
 }
 @media(max-width:1024px){
 .header {
+<<<<<<< HEAD
   min-height: 500px;	
+=======
+  min-height: 500px;
+>>>>>>> gh-pages
 }
 .banner {
   padding: 7em 0 5em;
@@ -669,7 +736,11 @@ span.menu{
 }
 ul.res  a:hover,ul.res li a.active{
 	color:#000;
+<<<<<<< HEAD
 }	
+=======
+}
+>>>>>>> gh-pages
 .banner p {
   font-size: 1em;
   width: 80%;
@@ -796,7 +867,11 @@ h2.b-animate.b-from-left.b-delay03 img {
 @media(max-width:640px){
 .banner h1 {
   font-size: 2.2em;
+<<<<<<< HEAD
 }	
+=======
+}
+>>>>>>> gh-pages
 .banner p {
   font-size: 1em;
   width: 95%;
@@ -855,7 +930,11 @@ h2.b-animate.b-from-left.b-delay03 {
 @media(max-width:480px){
 span.menu img {
   width: 82%;
+<<<<<<< HEAD
 }	
+=======
+}
+>>>>>>> gh-pages
 .banner h1 {
   font-size: 1.6em;
 }
@@ -1033,7 +1112,11 @@ ul.friend {
   margin: 0em 0em 0.1em 0em;
 }
 .banner p {
+<<<<<<< HEAD
   font-size: 0.8em;	
+=======
+  font-size: 0.8em;
+>>>>>>> gh-pages
 }
 .banner {
   padding: 0.7em 0 0em;
@@ -1169,4 +1252,142 @@ ul.friend {
 .top-navg ul.res li a {
   font-size: 12px;
 }
+<<<<<<< HEAD
 }
+=======
+}
+.banner:hover strong {
+    font-weight: bold;
+    color:#00ff7f;
+}
+.banner strong {
+    font-weight: bold;
+    color:#ccffe6;
+}
+
+.hovereffect {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+
+.hovereffect .overlay {
+  position: absolute;
+  overflow: hidden;
+  width: 80%;
+  height: 80%;
+  left: 10%;
+  top: 10%;
+  border-bottom: 1px solid #FFF;
+  border-top: 1px solid #FFF;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: scale(0,1);
+  -ms-transform: scale(0,1);
+  transform: scale(0,1);
+}
+
+.hovereffect:hover .overlay {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.hovereffect img {
+  display: block;
+  position: relative;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+}
+
+.hovereffect:hover img {
+  filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="0.6" /><feFuncG type="linear" slope="0.6" /><feFuncB type="linear" slope="0.6" /></feComponentTransfer></filter></svg>#filter');
+  filter: brightness(0.6);
+  -webkit-filter: brightness(0.6);
+}
+
+.hovereffect h2 {
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  font-size: 17px;
+  background-color: transparent;
+  color: #FFF;
+  padding: 1em 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(0,-100%,0);
+  transform: translate3d(0,-100%,0);
+}
+
+.hovereffect a, hovereffect p {
+  color: #FFF;
+  padding: 1em 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(0,100%,0);
+  transform: translate3d(0,100%,0);
+}
+
+.hovereffect:hover a, .hovereffect:hover p, .hovereffect:hover h2 {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+.hovereffect a.info {
+  display: inline-block;
+  text-decoration: none;
+  padding: 7px 14px;
+  text-transform: uppercase;
+  color: #fff;
+  border: 1px solid #fff;
+  margin: 50px 0 0 0;
+  background-color: transparent;
+  -webkit-transform: translateY(-200px);
+  -ms-transform: translateY(-200px);
+  transform: translateY(-200px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.hovereffect a.info:hover {
+  box-shadow: 0 0 5px #fff;
+}
+
+.hovereffect:hover .overlay {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+  -webkit-transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  transform: translate(0px, 0px);
+}
+
+.hovereffect:hover h2 {
+  -webkit-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  transform: translateY(0px);
+  -webkit-transition-delay: 0.5s;
+  transition-delay: 0.5s;
+}
+
+.hovereffect:hover a.info {
+  -webkit-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  transform: translateY(0px);
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+>>>>>>> gh-pages
