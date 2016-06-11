@@ -247,7 +247,7 @@ span.menu {
 }
 /*--work--*/
 .work{
-	background: url(../images/work.jpg);
+	/*background: url(../images/work.jpg);*/
 	padding:6em 0;
 	text-align: center;
 	background-size: 100% 100%;
@@ -342,7 +342,7 @@ span.glyphicon.glyphicon.glyphicon-apple {
 /*--team--**/
 .team{
 	padding:3em 0em;
-	background: url(../images/team.jpg)no-repeat center top;
+	/*background: url(../images/team.jpg)no-repeat center top;*/
 	background-size: 100% 100%;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
