@@ -25011,9 +25011,12 @@ var xpubc = [],
     runningtotal = 0,
     time, Ltime, datapoint = [], feeTally = false;
 
-console.log("list lenght :", list.length)
+console.log("list length: ", list.length)
 for (i=0; i < trans.length; i++) {
-
+  if (i >= 1) {
+    datapoint = [time, (runningtotal / 100000000)];
+    xpubc.push(datapoint)
+  }
   Ltime = trans[i].first_seen * 1000;
   time = new Date(Ltime);
   if (i === 0) { // oldest transaction
@@ -25049,8 +25052,6 @@ for (i=0; i < trans.length; i++) {
     }
 
   } else { // all other transaction
-    datapoint = [time, (runningtotal / 100000000)];
-    xpubc.push(datapoint)
     console.log("datapoint===========> ", datapoint)
     // match transaction against extkey_addresses
     for (j=0; j < trans[i].inputs.length; j++) {
@@ -25141,7 +25142,7 @@ function drawBackgroundColor() {
 // };
 //
 // var chart = new google.charts.Line(document.getElementById('linechart_material'));
-//
+`//`
 // chart.draw(data, google.charts.Line.convertOptions(options));
 //
 // }
